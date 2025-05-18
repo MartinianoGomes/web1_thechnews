@@ -1,7 +1,16 @@
+/* Global */
 @import url('global/global.css');
 
+/* Header */
 @import url('header/navprimary.css');
 @import url('header/navsecondary.css');
 @import url('header/global.css');
 
-@import url('main/noticiadestaque.css');
+/* Main */
+/* Global */
+@import url('main/content.css');
+
+/* Destaques */
+@import url('main/destaques/noticiadestaque.css');
+@import url('main/destaques/destaques.css');
+@import url('main/destaques/noticias.css');
