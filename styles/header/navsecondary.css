@@ -1,0 +1,13 @@
+.navsecondary {
+    display: flex;
+    justify-content: space-between;
+
+    font: var(--span);
+
+    color: var(--text-color-secondary);
+
+    padding-block: 14px;
+    padding-inline: 32px;
+
+    border: 1px solid var(--stroke-color);
+}
