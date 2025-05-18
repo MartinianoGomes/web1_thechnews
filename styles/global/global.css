@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Produto */
+    --brand-color-light: #60A5FA;
+    --brancd-color-dark: #1D4ED8;
+
+    /* Base */
+    --bg-color: #0F172A;
+    --stroke-color: #1E293B;
+
+    /* Textos */
+    --text-color-primary: #F1F5F9;
+    --text-color-secondary: #CBD5E1;
+
+    /* Tipografia */
+    --font-family: 'Archivo', sans-serif;
+    --h1: 24px/135% var(--font-family);
+    --h2: 16px/140% var(--font-family);
+    --h3: 14px/140% var(--font-family);
+    --span: 14px/145% var(--font-family);
+    --paragraph: 14px/160% var(--font-family);
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color: var(--text-color-primary);
+}
+
+.margin {
+    margin-inline: 32px;
+}
