@@ -21,10 +21,10 @@
 
     /* Tipografia */
     --font-family: 'Archivo', sans-serif;
-    --h1: 24px/135% var(--font-family);
-    --h2: 16px/140% var(--font-family);
-    --h3: 14px/140% var(--font-family);
-    --span: 14px/145% var(--font-family);
+    --h1: bold 24px/135% var(--font-family);
+    --h2: bold 16px/140% var(--font-family);
+    --h3: bold 14px/140% var(--font-family);
+    --span: 10px/145% var(--font-family);
     --paragraph: 14px/160% var(--font-family);
 }
 
