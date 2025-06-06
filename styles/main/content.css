@@ -1,7 +1,0 @@
-.content {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    gap: 80px;
-
-    margin-block-start: 41px;
-}

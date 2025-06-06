@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
     margin: 0;
@@ -7,33 +7,45 @@
 }
 
 :root {
-    /* Produto */
-    --brand-color-light: #60A5FA;
-    --brancd-color-dark: #1D4ED8;
+    --brand-color-light: #60a5fa;
+    --brand-color-dark: #1d4ed8;
+    --bg-color: #0f172a;
+    --stroke-color: #1e293b;
+    --text-color-primary: #f1f5f9;
+    --text-color-secondary: #cbd5e1;
 
-    /* Base */
-    --bg-color: #0F172A;
-    --stroke-color: #1E293B;
-
-    /* Textos */
-    --text-color-primary: #F1F5F9;
-    --text-color-secondary: #CBD5E1;
-
-    /* Tipografia */
-    --font-family: 'Archivo', sans-serif;
-    --h1: bold 24px/135% var(--font-family);
-    --h2: bold 16px/140% var(--font-family);
-    --h3: bold 14px/140% var(--font-family);
-    --span: 10px/145% var(--font-family);
-    --paragraph: 14px/160% var(--font-family);
+    --font-family: "Archivo", sans-serif;
+    --h1: 800 24px/138% var(--font-family);
+    --h2: 800 16px/140% var(--font-family);
+    --h3: 800 14px/140% var(--font-family);
+    --text-span: 600 14px/145% var(--font-family);
+    --text: 400 16px/140% var(--font-family);
+    --text-sm: 400 14px/160% var(--font-family);
+    --text-tag: 400 10px/160% var(--font-family);
 }
 
 body {
-    font-family: var(--font-family);
     background-color: var(--bg-color);
     color: var(--text-color-primary);
+    font: var(--text);
 }
 
-.margin {
-    margin-inline: 32px;
+main {
+    max-width: 1216px;
+    padding-inline: 1rem;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color-secundary);
+}
+
+a:hover {
+    color: var(--brand-color-light);
 }
